@@ -1,0 +1,32 @@
+/* General body styles */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #FDF8F0; /* Warm off-white page background */
+}
+
+/* Custom color and background classes */
+.accent-color {
+    color: #B45309; /* Deeper Amber/Brown */
+}
+
+.accent-bg {
+    background-color: #FBBF24; /* Amber 400 */
+}
+
+.card-bg {
+    background-color: #FFFBF5; /* Subtle, warm, and gentle background color */
+}
+
+.timeline-container-bg {
+    background-color: #FDF8F0; /* Same as body background for a subtle contrast */
+}
+
+/* Separator line for timeline items */
+.timeline-item:not(:last-child) {
+    border-bottom: 1px solid #E7E5E4; /* Soft stone color for separator */
+}
+
+/* Gradient border for the top of the card */
+.gradient-border {
+    background: linear-gradient(to right, #22c55e, #facc15, #3b82f6, #ef4444);
+}
